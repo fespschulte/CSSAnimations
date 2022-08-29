@@ -5,3 +5,26 @@
   --gray: #7C7C8A;
 
 }
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-red {
+  background: var(--red);
+}
+
+.bg-green {
+  background: var(--green);
+}
+
+.bg-orange {
+  background: var(--orange);
+}
+
+.bg-gray {
+  background: var(--gray);
+}
