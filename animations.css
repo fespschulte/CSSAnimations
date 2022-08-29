@@ -1,3 +1,32 @@
-.hover-animations:hover {
+.hover-animation:hover {
  background-color: var(--orange);
 }
+
+.hover-animations {
+  transition: background-color 0.5s;
+}
+
+.scale-transition {
+  transition: transform 0.3s;
+}
+
+.scale-transition:hover {
+  transform: scale(1.2);
+}
+
+.rotate-transition {
+  transition: transform 0.3s;
+}
+
+.rotate-transition:hover {
+  transform: rotateZ(90deg);
+}
+
+.delay-transition {
+  transition: width 1s 1s, height 2s;
+}
+.delay-transition:hover {
+  width: 200px;
+  height: 200px;
+}
+
